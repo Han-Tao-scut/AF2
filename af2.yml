@@ -279,7 +279,6 @@ dependencies:
       - h5py==3.11.0
       - immutabledict==2.0.0
       - jax==0.3.25
-      - jaxlib==0.3.25+cuda11.cudnn82
       - jmp==0.0.4
       - keras==2.9.0
       - keras-preprocessing==1.1.2
