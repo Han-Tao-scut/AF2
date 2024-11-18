@@ -1,0 +1,17 @@
+#修改cuda版本
+    name: RF2
+    channels:
+    - pytorch
+    - nvidia
+    - defaults
+    - conda-forge
+    dependencies:
+    - python=3.10
+    - pip
+    - cudatoolkit=11.8
+    - pytorch=2.1.1
+    - pytorch-cuda=11.8
+    - dglteam/label/cu117::dgl
+    - pyg::pyg
+    - bioconda::hhsuite
+    - pandas=2.2.0
